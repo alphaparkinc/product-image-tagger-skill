@@ -1,0 +1,40 @@
+{
+  "name": "product-image-tagger-skill",
+  "version": "1.0.0",
+  "description": "Simulates AI image tagging by converting catalog product keywords into optimized alt tags and SEO-ready metadata.",
+  "author": "alphaparkinc",
+  "category": "seo",
+  "tags": [
+    "image-tagging",
+    "seo",
+    "metadata",
+    "alt-tags",
+    "marketing"
+  ],
+  "inputs": {
+    "product_name": {
+      "type": "string",
+      "description": "Name of the product."
+    },
+    "product_category": {
+      "type": "string",
+      "description": "Primary catalog category."
+    },
+    "features": {
+      "type": "array",
+      "description": "Key visible attributes: [string]."
+    }
+  },
+  "outputs": {
+    "generated_alt_tag": {
+      "type": "string",
+      "description": "Optimized HTML image alt tag text."
+    },
+    "image_metadata_tags": {
+      "type": "array",
+      "description": "SEO indexing keywords."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
