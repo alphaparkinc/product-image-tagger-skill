@@ -1,4 +1,4 @@
-# product-image-tagger-skill
+# genpark-product-image-tagger-skill
 
 > **GenPark AI Agent Skill** -- Product image metadata SEO tagging simulator.
 
