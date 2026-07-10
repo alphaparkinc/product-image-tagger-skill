@@ -1,5 +1,5 @@
 {
-  "name": "product-image-tagger-skill",
+  "name": "genpark-product-image-tagger-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Simulates AI image tagging by converting catalog product keywords into optimized alt tags and SEO-ready metadata.",
   "author": "genpark",
